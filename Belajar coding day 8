@@ -1,0 +1,11 @@
+import java.util.*;
+
+ class Dcoder
+ {
+   public static void main(String args[])
+   { 
+    int nilaiA = 20,nilaiB = 8;
+    nilaiA +=nilaiB;
+    System.out.println (nilaiA);
+   }
+ }
