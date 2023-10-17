@@ -1,0 +1,44 @@
+import java.util.*;
+ 
+   class Dcoder
+ {
+   public static void main(String args[])
+   { 
+     
+    System.out.println(">>>>>>>Informasi Identitas Pribadi<<<<<<");
+        System.out.println(" ");
+        
+        String nama, nim, nim1, kelas, alamat;
+        double bb, tb, bmi;
+        
+        nama = "Muliadi";
+        System.out.println("Nama : "+nama);
+        
+        alamat = "Polman";
+        System.out.println("Alamat : "+alamat);
+        
+        kelas = "Informatika E 2023";
+        System.out.println("Kelas : "+kelas);
+        
+        nim = "D0223519";
+        
+        System.out.println("NIM : "+nim);
+        nim1 = nim.substring(nim.length()-2);
+        System.out.println("Umur : "+nim1+" tahun");
+        
+        tb = 1.7;
+        System.out.println("Tinggi Badan : "+tb+" m");
+        
+        bb = 62;
+        System.out.println("Berat Badan : "+bb+" Kg");
+        
+        
+        bmi = bb / (tb * tb);
+        System.out.println("BMI : "+bmi);
+        
+        
+        
+        
+   }
+ }
+ 
