@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+
+ class Dcoder
+ {
+   public static void main(String args[])
+   { 
+     Scanner input = new Scanner(System.in);
+     
+    System.out.print("Masukkan Nilai a : ");
+    int a = input.nextInt();
+    
+    System.out.print("Masukkan Nilai b : ");
+    int b = input.nextInt();
+    
+    if(a < b){
+      
+      System.out.println("\nNilai a lebih kecil dari nilai b");
+      
+    }else if(a > b){
+      
+      System.out.println("\nNilai a lebih besar dari b");
+      
+    }else{
+      System.out.println("\nNilai a sama dengan nilai b");
+    }
+    
+   }
+ }
