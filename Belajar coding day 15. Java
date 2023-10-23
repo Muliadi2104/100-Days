@@ -1,0 +1,13 @@
+import java.util.*;
+
+ class Dcoder
+ {
+   public static void main(String args[])
+   { 
+     int nilai = 9;
+     int angka = 3;
+    System.out.println(nilai<=angka);
+   
+ 
+   }
+ }
