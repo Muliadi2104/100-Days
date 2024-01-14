@@ -13,10 +13,10 @@ public class mulya9 {
             System.out.print("inputan salah");
             
         } else{
-            int b = awal;
-            while( b <= akhir){
-            System.out.print(b + " ");
-            b++;
+            int a = awal;
+            while( a <= akhir){
+            System.out.print(a + " ");
+            a++;
         }
         
     } 
